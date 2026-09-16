@@ -1,0 +1,559 @@
+<!DOCTYPE html><html class="light" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          surface: "#f8fafc",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-low": "#f8fafc",
+          "surface-container": "#ffffff",
+          "surface-container-high": "#f1f5f9",
+          "surface-container-highest": "#e2e8f0",
+          "on-surface": "#0f172a",
+          "on-surface-variant": "#334155",
+          outline: "#64748b",
+          "outline-variant": "#cbd5e1",
+          primary: "#0284c7",
+          "primary-container": "#0ea5e9",
+          "on-primary": "#ffffff",
+          "on-primary-container": "#002f54",
+          secondary: "#0284c7",
+          "secondary-container": "#e0f2fe",
+          "on-secondary": "#ffffff",
+          tertiary: "#059669",
+          "tertiary-container": "#d1fae5",
+          "tertiary-fixed": "#047857"
+        },
+        fontFamily: {
+          sans: ["Inter", "sans-serif"],
+          mono: ["Space Mono", "monospace"],
+          heading: ["Space Grotesk", "sans-serif"]
+        }
+      }
+    }
+  }</script></head><body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen selection:bg-sky-500 selection:text-white"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-white/85 backdrop-blur-md border-b border-slate-200/80 shadow-sm"><div class="h-16 max-w-[1280px] mx-auto px-4 lg:px-8 flex items-center justify-between gap-4"><div class="flex items-center gap-4 min-w-0"><a class="flex items-center gap-2.5 group shrink-0" data-path="portfolio-home" href="#"><img alt="DJ AI Engineer Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Uxsy2EM7E6cm2t-UuqCetiyfcaRFkm6vdKfhf8do-hfl2x76Nwpn7hLqI9kU1Lixo9aSrbY2fzdPMnzzJi1pi32MUg4DkgSt2FvG43dS9BN_EfJl6gEPNTUBmhnYqAHIIGbp3bFY-4l0pssTKzPhQ1eBBuVtz1uPUQyPmDxg52zBhdndgMkzS2Y0cAYfVvUcFrcw68CvXylLHwe5EncTiElomGY7ACIS7OiguO6NRtvJ9iNijwFCWGyAj5"><div class="flex flex-col"><span class="text-base font-bold text-slate-900 tracking-tight group-hover:text-sky-600 transition-colors truncate">Divyaditya S. Jhala</span><span class="text-xs text-sky-700 font-semibold tracking-wide hidden sm:inline-block">Full Stack &amp; AI Engineer</span></div></a><div class="hidden xl:flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-600"></span></span><span class="text-xs font-semibold text-slate-700">Available for Opportunities</span></div></div><nav class="hidden lg:flex items-center gap-1.5"><a class="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors rounded-lg" data-path="about" href="#about">About</a><a class="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors rounded-lg" data-path="projects" href="#projects">Projects</a><a class="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors rounded-lg" data-path="experience" href="#experience">Experience</a><a class="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors rounded-lg" data-path="skills" href="#skills">Skills</a><a class="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors rounded-lg" data-path="education" href="#education">Education</a><a class="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors rounded-lg" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-3 shrink-0"><a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-sky-700 border border-sky-300 bg-sky-50/80 hover:bg-sky-600 hover:text-white hover:border-sky-600 transition-all shadow-sm" data-path="resume" href="#contact"><span class="material-symbols-outlined text-[18px]">download</span><span class="">Resume</span></a><div class="w-8 h-8 rounded-full bg-sky-600 flex items-center justify-center shrink-0 shadow-sm"><span class="material-symbols-outlined text-white text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-slate-50 relative"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO SECTION -->
+<section class="relative w-full overflow-hidden px-4 lg:px-8 pt-12 pb-24 lg:pb-32">
+<!-- Ambient Tech Glow & Grid Background Elements -->
+<div class="absolute inset-0 pointer-events-none -z-10 flex items-center justify-center overflow-hidden">
+<div class="absolute w-[600px] h-[600px] rounded-full bg-sky-200/50 blur-[130px]"></div>
+<div class="absolute -top-32 right-1/4 w-[420px] h-[420px] rounded-full bg-blue-100/60 blur-[110px]"></div>
+<!-- Subtle Light Grid Pattern -->
+<svg class="absolute inset-0 w-full h-full opacity-60" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="48" id="tech-grid" patternUnits="userSpaceOnUse" width="48">
+<path class="text-slate-200" d="M 48 0 L 0 0 0 48" fill="none" stroke="currentColor" stroke-width="1"></path>
+<circle class="text-sky-400/50" cx="0" cy="0" fill="currentColor" r="1.5"></circle>
+</pattern>
+</defs>
+<rect fill="url(#tech-grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<div class="max-w-[1280px] mx-auto flex flex-col items-center text-center">
+<!-- Eyebrow Tag -->
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-sky-600 shadow-[0_0_8px_#0284c7]"></span>
+</span>
+<span class="text-xs uppercase font-bold tracking-wider text-sky-700">Full Stack Developer | AI/ML Engineer</span>
+</div>
+<!-- Main Headline -->
+<h1 class="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-slate-900 font-extrabold tracking-tight max-w-4xl leading-tight">
+        Architecting <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 via-blue-600 to-cyan-500">Intelligent Systems</span> with Machine Precision
+      </h1>
+<!-- Tagline -->
+<p class="mt-4 text-base md:text-lg text-slate-600 max-w-2xl leading-relaxed">
+        Architecting intelligent, production-ready AI systems and scalable full-stack applications that transform raw data into high-impact solutions.
+      </p>
+<!-- CTA Action Group -->
+<div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-semibold bg-sky-600 text-white shadow-md hover:bg-sky-700 hover:shadow-lg hover:-translate-y-0.5 transition-all" href="#projects">
+<span class="">View Projects</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-medium text-slate-800 bg-white border border-slate-200 shadow-sm hover:bg-slate-50 hover:text-sky-700 hover:border-slate-300 hover:-translate-y-0.5 transition-all" href="#contact">
+<span class="">Contact Me</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</a>
+</div>
+<!-- Metric Telemetry Badges Strip -->
+<div class="mt-10 pt-4 flex flex-wrap items-center justify-center gap-4 md:gap-6">
+<div class="flex items-center gap-3 bg-white border border-slate-200 px-4 py-2.5 rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-sky-600 text-[22px]">memory</span>
+<div class="text-left">
+<div class="text-sm font-bold text-slate-900 leading-tight">Production</div>
+<div class="text-xs text-slate-500 font-medium">AI / ML Pipelines</div>
+</div>
+</div>
+<div class="flex items-center gap-3 bg-white border border-slate-200 px-4 py-2.5 rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-emerald-600 text-[22px]">speed</span>
+<div class="text-left">
+<div class="text-sm font-bold text-slate-900 leading-tight">&lt; 500ms</div>
+<div class="text-xs text-slate-500 font-medium">Real-Time Inference</div>
+</div>
+</div>
+<div class="flex items-center gap-3 bg-white border border-slate-200 px-4 py-2.5 rounded-xl shadow-sm">
+<span class="material-symbols-outlined text-blue-600 text-[22px]">account_tree</span>
+<div class="text-left">
+<div class="text-sm font-bold text-slate-900 leading-tight">Agentic RAG</div>
+<div class="text-xs text-slate-500 font-medium">Contextual Workflows</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: ABOUT SECTION -->
+<section class="relative w-full px-4 lg:px-8 py-20 bg-white border-y border-slate-200" id="about">
+<div class="max-w-[1280px] mx-auto">
+<div class="flex flex-col lg:flex-row gap-10 items-start">
+<!-- Narrative Column -->
+<div class="w-full lg:w-7/12 flex flex-col">
+<div class="inline-flex items-center gap-1.5 text-xs font-bold tracking-wider text-sky-700 uppercase mb-2">
+<span class="">01. About Me</span>
+</div>
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Engineering at the intersection of Full-Stack Architecture &amp; Applied Intelligence
+          </h2>
+<p class="mt-4 text-base text-slate-600 leading-relaxed">
+            Graduating with a B.Tech (Hons.) in Computer Science &amp; Engineering specialized in AI &amp; Machine Learning from Manipal University Jaipur (Class of 2025). I engineer end-to-end AI-driven full-stack applications, pairing robust backend microservices with production-grade Computer Vision and NLP pipelines. Experienced in taking novel research from experimental prototypes to low-latency deployed systems in Agile enterprise environments.
+          </p>
+<!-- Core Tenets Mosaic -->
+<div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-5 rounded-xl bg-slate-50 border border-slate-200 shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-sky-100 flex items-center justify-center text-sky-700 mb-3">
+<span class="material-symbols-outlined text-[24px]">developer_board</span>
+</div>
+<h3 class="text-base font-bold text-slate-900">Core Focus</h3>
+<p class="mt-1.5 text-xs text-slate-600 leading-relaxed">
+                Agentic RAG systems, real-time Computer Vision pipelines, and asynchronous FastAPI microservices engineered for extreme throughput.
+              </p>
+</div>
+<div class="p-5 rounded-xl bg-slate-50 border border-slate-200 shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center text-emerald-700 mb-3">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<h3 class="text-base font-bold text-slate-900">Engineering Ethos</h3>
+<p class="mt-1.5 text-xs text-slate-600 leading-relaxed">
+                Obsessive reliability, deterministic sub-second latency, maintainable typing standards, and complete test-driven verification.
+              </p>
+</div>
+</div>
+</div>
+<!-- Telemetry Data & Visual Showcase Column -->
+<div class="w-full lg:w-5/12 flex flex-col gap-4">
+<div class="relative rounded-2xl overflow-hidden shadow-md bg-white border border-slate-200">
+<img class="w-full h-64 object-cover" data-alt="A modern software engineering setup with high-contrast dual monitors displaying Python and neural network loss curves in a dark studio illuminated by subtle electric cyan ambient lighting, cinematic, clean, technical style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOMYoTPT_GCTzxjshDvTQhTiC9y3udghu7JyuU7flb-BzQS2MWziH-VzRkmKexsjQiifQQgmLCazIKSD5G--1530FgWG99OOReFGCA7HJHwNrX-5alYfZO1dTtJrj5K7hMBzJjQv65JREEnAgni8IHg52OhQCpdHxy5ylJEtx1a3CI9c9p8k4oSMrV8cc4jV2lsbUX6K9V9P3XoFRGYjvquLuGcCG8Y6nfOuMpKD5YQww0s0Jelr2r_g">
+<div class="p-5 bg-white border-t border-slate-100">
+<div class="flex items-center justify-between">
+<span class="text-xs uppercase font-bold text-sky-700 tracking-wide">Live Operational Status</span>
+<span class="text-xs px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-semibold">Ready for Deployment</span>
+</div>
+<div class="mt-4 space-y-2 text-xs font-mono text-slate-600">
+<div class="flex justify-between border-b border-slate-100 pb-1.5">
+<span class="">Architecture</span>
+<span class="text-slate-900 font-bold">Microservices + Vector DB</span>
+</div>
+<div class="flex justify-between border-b border-slate-100 pb-1.5">
+<span class="">Base Paradigm</span>
+<span class="text-slate-900 font-bold">Async I/O &amp; Event-Driven</span>
+</div>
+<div class="flex justify-between pt-0.5">
+<span class="">Target Latency</span>
+<span class="text-sky-700 font-bold">&lt; 250ms p95 API</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: PROJECTS SECTION -->
+<section class="w-full px-4 lg:px-8 py-20 bg-slate-50" id="projects"><div class="max-w-[1280px] mx-auto"><div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4"><div><span class="text-xs font-bold tracking-wider text-sky-700 uppercase mb-1.5 block">02. Featured Projects</span><h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900">Production-Ready AI &amp; Full-Stack Systems</h2></div><p class="text-sm text-slate-600 max-w-md">Applied machine learning systems engineered with production criteria: low latency, high fidelity, and zero operational downtime.</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><div class="flex flex-col rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"><div class="relative h-52 overflow-hidden bg-slate-100"><img class="w-full h-full object-cover" data-alt="A futuristic software interface showing an email vector retrieval agent with graph nodes and semantic similarity distances in deep slate and electric cyan, cinematic visualization" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvFq-gPMpkic9PNgnmo-W3msBew_01wOhnZaDCGjq6jPD0yLtUkhtGIBz0MB67x9zqXBafMqFJoGZoxg-FqF9xVrRZ9sXiKsnJvdqLPwk2hnMFqxOX-z2uOlXsPUeFaTEzmjCBZMvGcD2GYV_tt1odjjotvdk4lS3gTasRDo0KwWa52UQJZPMaTIwuN1XSgt94ZCQXDJKDIw6k0uMTlIGr9cElgnVWKnbSiEhAi4TnUFuPxJlZDsFq8A"><div class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-white/90 backdrop-blur-md text-sky-700 text-xs font-bold shadow-sm border border-slate-200/80">Agentic RAG</div></div><div class="p-5 flex flex-col flex-grow"><div class="flex flex-wrap gap-1.5 mb-3"><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">MCP</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">LangChain</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">ChromaDB</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">Flask</span></div><h3 class="text-base font-bold text-slate-900">Intelligent Email Archive Agent</h3><p class="mt-1.5 text-xs text-slate-600 leading-relaxed flex-grow">Production-ready agentic RAG system enabling semantic email discovery, automated contextual synthesis, and intelligent multi-threaded summarization across dense enterprise archives.</p><div class="mt-4 p-2.5 rounded-lg bg-sky-50 border border-sky-100 flex items-center gap-2 text-sky-700 text-xs font-semibold"><span class="material-symbols-outlined text-[18px]">bolt</span><span class="">Sub-second semantic search &amp; multi-turn contextual retrieval</span></div><div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between"><a class="inline-flex items-center gap-1.5 text-xs font-bold text-sky-700 hover:text-sky-900 transition-colors" href="#contact"><span class="">Explore Architecture</span><span class="material-symbols-outlined text-[16px]">arrow_forward</span></a><span class="material-symbols-outlined text-slate-400 text-[20px]">terminal</span></div></div></div><div class="flex flex-col rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"><div class="relative h-52 overflow-hidden bg-slate-100"><img class="w-full h-full object-cover" data-alt="Computer vision facial landmark detection on an automotive test driver with ocular mesh geometry highlighted in electric cyan over a dark cabin cockpit, high tech AI safety telemetry" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzjVVCqcyYXQB4hpe7iRyd9ZKfZ4W7CNtCVbRRLI75PycFOmJBrrQB-YjPqFtqdkiyJTpk4wMAzYk_7e8RU4UZw2WAgzUmY2rWcCCbzLRYF-1JBzLKqwnBvB-DUvim_3d3NMytXgki6K3WRAdr0MF1mk_DPNzOiu62bBss8mmXVo-pE4cK_f5ahxbNgATe1-Nf549PMZVxfQiNJxx7nJIAvqnIsaO0YscMWQmY225lZGxt1LmdFycFfg"><div class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-white/90 backdrop-blur-md text-emerald-700 text-xs font-bold shadow-sm border border-slate-200/80">Edge Computer Vision</div></div><div class="p-5 flex flex-col flex-grow"><div class="flex flex-wrap gap-1.5 mb-3"><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">TensorFlow</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">Keras</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">OpenCV</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">Python</span></div><h3 class="text-base font-bold text-slate-900">Real-Time Driver Drowsiness Detection</h3><p class="mt-1.5 text-xs text-slate-600 leading-relaxed flex-grow">Vision system monitoring driver facial landmarks and ocular state to trigger life-saving real-time fatigue and distraction alerts under diverse low-light and high-glare lighting conditions.</p><div class="mt-4 p-2.5 rounded-lg bg-emerald-50 border border-emerald-100 flex items-center gap-2 text-emerald-700 text-xs font-semibold"><span class="material-symbols-outlined text-[18px]">speed</span><span class="">97.8% Training Accuracy | &lt;500ms Real-Time Latency</span></div><div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between"><a class="inline-flex items-center gap-1.5 text-xs font-bold text-sky-700 hover:text-sky-900 transition-colors" href="#contact"><span class="">View Benchmark &amp; Demo</span><span class="material-symbols-outlined text-[16px]">arrow_forward</span></a><span class="material-symbols-outlined text-slate-400 text-[20px]">videocam</span></div></div></div><div class="flex flex-col rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"><div class="relative h-52 overflow-hidden bg-slate-100"><img class="w-full h-full object-cover" data-alt="Automated vehicle license plate recognition AI bounding box overlay with extracted alphanumeric telemetry on a highway traffic surveillance feed, cyan and neon accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2k5hDMFmhhtOiRNcFWpeFgxv9PmjqmpxNMXJWGvHt-Nh57-Xb4YKjV9Xhscc9IB3RD06SLXn80XwPxo14ZjInxnzuhnXz6Dnb0UJaCe5uNercPEJeJciENmCZFuuWHV3lbUYzDpLS5DEhV01fXoV1lmjKnKuJGDr1nDoLzmEYfiq8zBp1cqVnMxk7b5GLa4cW7lRJYLYX7XDHXYRKACwo1Vi9XSP_fiDdmFPnWzIUcOC8Ni2Xj7cWjA"><div class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-white/90 backdrop-blur-md text-sky-700 text-xs font-bold shadow-sm border border-slate-200/80">Deep Learning</div></div><div class="p-5 flex flex-col flex-grow"><div class="flex flex-wrap gap-1.5 mb-3"><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">YOLOv8</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">EasyOCR</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">OpenCV</span><span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">PyTorch</span></div><h3 class="text-base font-bold text-slate-900">License Plate Detection &amp; Recognition</h3><p class="mt-1.5 text-xs text-slate-600 leading-relaxed flex-grow">High-speed automated vehicle recognition pipeline orchestrating state-of-the-art object detection with robust character segmentation for challenging surveillance feeds.</p><div class="mt-4 p-2.5 rounded-lg bg-sky-50 border border-sky-100 flex items-center gap-2 text-sky-700 text-xs font-semibold"><span class="material-symbols-outlined text-[18px]">analytics</span><span class="">98.6% mAP50 Detection | 94.2% Character Accuracy</span></div><div class="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between"><a class="inline-flex items-center gap-1.5 text-xs font-bold text-sky-700 hover:text-sky-900 transition-colors" href="#contact"><span class="">View Implementation</span><span class="material-symbols-outlined text-[16px]">arrow_forward</span></a><span class="material-symbols-outlined text-slate-400 text-[20px]">smart_toy</span></div></div></div></div></div></section>
+<!-- SECTION 4: EXPERIENCE SECTION -->
+<section class="w-full px-4 lg:px-8 py-20 bg-white border-b border-slate-200" id="experience">
+<div class="max-w-[1280px] mx-auto">
+<div class="flex flex-col items-center text-center mb-10">
+<span class="text-xs font-bold tracking-wider text-sky-700 uppercase mb-1.5">03. Experience</span>
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900">Industry Engineering Experience</h2>
+<p class="mt-2 text-sm text-slate-600 max-w-xl">
+          Building resilient, production-grade backends and intelligent automation systems.
+        </p>
+</div>
+<!-- Experience Card -->
+<div class="relative max-w-4xl mx-auto rounded-2xl bg-slate-50 border border-slate-200 p-6 lg:p-8 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+<div>
+<div class="flex items-center gap-2.5">
+<h3 class="text-lg sm:text-xl font-bold text-slate-900">Full Stack Developer</h3>
+<span class="px-2.5 py-0.5 rounded-full bg-sky-100 text-sky-700 text-xs font-bold">Active Role</span>
+</div>
+<div class="text-sm text-sky-700 font-semibold mt-0.5">Tech • Indore, India</div>
+</div>
+<div class="flex items-center gap-1.5 text-xs font-semibold text-slate-600 bg-white border border-slate-200 px-3 py-1.5 rounded-lg w-fit shadow-xs">
+<span class="material-symbols-outlined text-[18px] text-sky-600">calendar_today</span>
+<span class="">Nov 2025 – Present</span>
+</div>
+</div>
+<ul class="mt-6 space-y-3.5 text-sm text-slate-600">
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-sky-600 text-[20px] shrink-0 mt-0.5">check_circle</span>
+<span class="">Engineered high-performance <strong class="text-slate-900 font-semibold">FastAPI backends</strong> and microservices supporting real-time data processing workflows across distributed endpoints.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-sky-600 text-[20px] shrink-0 mt-0.5">check_circle</span>
+<span class="">Architected <strong class="text-slate-900 font-semibold">NLP-based document automation pipelines</strong> reducing manual processing overhead by accelerating text entity extraction and contextual categorization.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-sky-600 text-[20px] shrink-0 mt-0.5">check_circle</span>
+<span class="">Designed secure, scalable <strong class="text-slate-900 font-semibold">RESTful APIs</strong> with comprehensive automated test suites and exhaustive OpenAPI 3.0 documentation.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-sky-600 text-[20px] shrink-0 mt-0.5">check_circle</span>
+<span class="">Collaborated in continuous <strong class="text-slate-900 font-semibold">Agile/CI-CD workflows</strong>, containerizing services via Docker and optimizing roundtrip cloud latency.</span>
+</li>
+</ul>
+<!-- Tech Pills Strip -->
+<div class="mt-6 pt-4 border-t border-slate-200 flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded bg-white border border-slate-200 text-slate-700 text-xs font-semibold">FastAPI</span>
+<span class="px-3 py-1 rounded bg-white border border-slate-200 text-slate-700 text-xs font-semibold">NLP</span>
+<span class="px-3 py-1 rounded bg-white border border-slate-200 text-slate-700 text-xs font-semibold">Python</span>
+<span class="px-3 py-1 rounded bg-white border border-slate-200 text-slate-700 text-xs font-semibold">RESTful APIs</span>
+<span class="px-3 py-1 rounded bg-white border border-slate-200 text-slate-700 text-xs font-semibold">CI/CD</span>
+<span class="px-3 py-1 rounded bg-white border border-slate-200 text-slate-700 text-xs font-semibold">Agile</span>
+<span class="px-3 py-1 rounded bg-white border border-slate-200 text-slate-700 text-xs font-semibold">Docker</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: SKILLS SECTION -->
+<section class="w-full px-4 lg:px-8 py-20 bg-slate-50" id="skills">
+<div class="max-w-[1280px] mx-auto">
+<div class="flex flex-col items-center text-center mb-10">
+<span class="text-xs font-bold tracking-wider text-sky-700 uppercase mb-1.5">04. Technical Arsenal</span>
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900">Skills &amp; Specializations</h2>
+<p class="mt-2 text-sm text-slate-600 max-w-xl">
+          A full-stack capability matrix spanning low-level algorithms, applied machine learning, and scalable cloud systems.
+        </p>
+</div>
+<!-- Skills 4-Card Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- 1. Languages -->
+<div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md hover:border-slate-300 transition-all">
+<div>
+<div class="w-10 h-10 rounded-xl bg-sky-100 flex items-center justify-center text-sky-700 mb-4">
+<span class="material-symbols-outlined text-[22px]">code</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 mb-3">Languages</h3>
+<div class="space-y-2.5">
+<div class="flex items-center justify-between text-xs">
+<span class="text-slate-800 font-medium">Python</span>
+<span class="text-sky-700 font-mono font-bold">Expert</span>
+</div>
+<div class="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+<div class="bg-sky-600 h-full rounded-full w-[95%]"></div>
+</div>
+<div class="flex items-center justify-between text-xs pt-1">
+<span class="text-slate-800 font-medium">C++</span>
+<span class="text-sky-700 font-mono font-bold">Proficient</span>
+</div>
+<div class="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+<div class="bg-sky-600 h-full rounded-full w-[80%]"></div>
+</div>
+<div class="flex items-center justify-between text-xs pt-1">
+<span class="text-slate-800 font-medium">JavaScript</span>
+<span class="text-sky-700 font-mono font-bold">Advanced</span>
+</div>
+<div class="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+<div class="bg-sky-600 h-full rounded-full w-[85%]"></div>
+</div>
+<div class="flex items-center justify-between text-xs pt-1">
+<span class="text-slate-800 font-medium">SQL</span>
+<span class="text-sky-700 font-mono font-bold">Advanced</span>
+</div>
+<div class="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+<div class="bg-sky-600 h-full rounded-full w-[85%]"></div>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5">
+<span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">HTML5/CSS3</span>
+<span class="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-medium">Bash</span>
+</div>
+</div>
+<!-- 2. AI / ML & Vision -->
+<div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md hover:border-slate-300 transition-all">
+<div>
+<div class="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700 mb-4">
+<span class="material-symbols-outlined text-[22px]">neurology</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 mb-3">AI / ML &amp; Vision</h3>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">TensorFlow</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">Keras</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">OpenCV</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">LangChain</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">Scikit-Learn</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">YOLOv8</span>
+<span class="px-2.5 py-1 rounded-md bg-sky-50 text-sky-700 border border-sky-200 text-xs font-bold">RAG Architectures</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">PyTorch</span>
+</div>
+</div>
+<p class="mt-5 text-xs text-slate-600 leading-relaxed">
+            Production model fine-tuning, embeddings, and real-time computer vision inference.
+          </p>
+</div>
+<!-- 3. Backend & Systems -->
+<div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md hover:border-slate-300 transition-all">
+<div>
+<div class="w-10 h-10 rounded-xl bg-emerald-100 flex items-center justify-center text-emerald-700 mb-4">
+<span class="material-symbols-outlined text-[22px]">dns</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 mb-3">Backend &amp; Systems</h3>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">FastAPI</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">Flask</span>
+<span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold">MCP</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">RESTful APIs</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">Microservices</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">CI/CD</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">Asynchronous I/O</span>
+</div>
+</div>
+<p class="mt-5 text-xs text-slate-600 leading-relaxed">
+            Model Context Protocol integration, OpenAPI 3 standards, and robust service orchestration.
+          </p>
+</div>
+<!-- 4. Databases & Tools -->
+<div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md hover:border-slate-300 transition-all">
+<div>
+<div class="w-10 h-10 rounded-xl bg-sky-100 flex items-center justify-center text-sky-700 mb-4">
+<span class="material-symbols-outlined text-[22px]">database</span>
+</div>
+<h3 class="text-base font-bold text-slate-900 mb-3">Databases &amp; Tools</h3>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-md bg-sky-50 text-sky-700 border border-sky-200 text-xs font-bold">ChromaDB (Vector DB)</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">MySQL</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">SQLite</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">Git &amp; GitHub</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">Docker</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-xs font-medium">Postman</span>
+</div>
+</div>
+<p class="mt-5 text-xs text-slate-600 leading-relaxed">
+            Vector indexing, database migrations, container deployments, and test suites.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: EDUCATION & CERTIFICATIONS -->
+<section class="w-full px-4 lg:px-8 py-20 bg-white border-y border-slate-200" id="education">
+<div class="max-w-[1280px] mx-auto">
+<div class="flex flex-col items-center text-center mb-10">
+<span class="text-xs font-bold tracking-wider text-sky-700 uppercase mb-1.5">05. Education &amp; Credentials</span>
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900">Academic Pedigree &amp; Certifications</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Degree Card (7 cols) -->
+<div class="lg:col-span-7 rounded-2xl bg-slate-50 border border-slate-200 p-6 lg:p-8 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between flex-wrap gap-2">
+<span class="px-3 py-1 rounded-md bg-sky-100 text-sky-700 text-xs font-bold">
+                Class of 2025
+              </span>
+<span class="text-base font-bold text-emerald-700">
+                CGPA 7.65 / 10.0
+              </span>
+</div>
+<h3 class="mt-4 text-xl font-bold text-slate-900 leading-tight">
+              Bachelor of Technology (Hons.) in Computer Science &amp; Engineering
+            </h3>
+<div class="text-sm font-bold text-sky-700 mt-1">
+              Specialization: Artificial Intelligence &amp; Machine Learning
+            </div>
+<div class="text-sm text-slate-600 mt-0.5 font-medium">
+              Manipal University Jaipur
+            </div>
+<p class="mt-3.5 text-sm text-slate-600 leading-relaxed">
+              Rigorous analytical curriculum focused on neural networks, statistical inference, distributed computation, and production software engineering.
+            </p>
+<div class="mt-6">
+<h4 class="text-xs uppercase font-bold text-sky-700 tracking-wider mb-2">Core Technical Coursework</h4>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 text-xs font-medium">Neural Networks &amp; Deep Learning</span>
+<span class="px-3 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 text-xs font-medium">Distributed Systems</span>
+<span class="px-3 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 text-xs font-medium">Natural Language Processing</span>
+<span class="px-3 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 text-xs font-medium">Data Structures &amp; Algorithms</span>
+<span class="px-3 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 text-xs font-medium">Database Systems</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Certifications List (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-3">
+<h3 class="text-base font-bold text-slate-900 flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-sky-600 text-[22px]">workspace_premium</span>
+<span class="">Verified Credentials</span>
+</h3>
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 shadow-sm flex items-start gap-3 hover:bg-slate-100 transition-colors">
+<div class="w-10 h-10 rounded-lg bg-sky-100 flex items-center justify-center text-sky-700 shrink-0">
+<span class="material-symbols-outlined text-[22px]">verified</span>
+</div>
+<div>
+<div class="text-sm font-bold text-slate-900 leading-tight">IBM Machine Learning Professional</div>
+<div class="text-xs text-slate-500 mt-0.5">IBM • Coursera Professional Certification</div>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 shadow-sm flex items-start gap-3 hover:bg-slate-100 transition-colors">
+<div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center text-blue-700 shrink-0">
+<span class="material-symbols-outlined text-[22px]">psychology</span>
+</div>
+<div>
+<div class="text-sm font-bold text-slate-900 leading-tight">Deep Learning Specialization</div>
+<div class="text-xs text-slate-500 mt-0.5">DeepLearning.AI • Andrew Ng</div>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 shadow-sm flex items-start gap-3 hover:bg-slate-100 transition-colors">
+<div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center text-emerald-700 shrink-0">
+<span class="material-symbols-outlined text-[22px]">smart_toy</span>
+</div>
+<div>
+<div class="text-sm font-bold text-slate-900 leading-tight">TensorFlow Developer Specialization</div>
+<div class="text-xs text-slate-500 mt-0.5">DeepLearning.AI • Google</div>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 shadow-sm flex items-start gap-3 hover:bg-slate-100 transition-colors">
+<div class="w-10 h-10 rounded-lg bg-sky-100 flex items-center justify-center text-sky-700 shrink-0">
+<span class="material-symbols-outlined text-[22px]">auto_awesome</span>
+</div>
+<div>
+<div class="text-sm font-bold text-slate-900 leading-tight">Generative AI with Large Language Models</div>
+<div class="text-xs text-slate-500 mt-0.5">AWS &amp; DeepLearning.AI</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: CONTACT / HIRE ME SECTION -->
+<section class="w-full px-4 lg:px-8 py-20 bg-slate-50" id="contact">
+<div class="max-w-[1280px] mx-auto">
+<div class="flex flex-col items-center text-center mb-10">
+<span class="text-xs font-bold tracking-wider text-sky-700 uppercase mb-1.5">06. Contact</span>
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900">Let's Build Something Exceptional</h2>
+<p class="mt-2 text-sm text-slate-600 max-w-2xl">
+          Open to exciting AI engineering roles, collaborative systems research, and high-impact full-stack challenges.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Left: Direct Channels & Information (5 cols) -->
+<div class="lg:col-span-5 rounded-2xl bg-white border border-slate-200 p-6 lg:p-8 shadow-sm flex flex-col justify-between">
+<div>
+<h3 class="text-xl font-bold text-slate-900">Get in Touch</h3>
+<p class="mt-1.5 text-sm text-slate-600">
+              Have an opening, technical inquiry, or architecture query? Reach out directly.
+            </p>
+<div class="mt-8 space-y-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-sky-50 border border-sky-100 flex items-center justify-center text-sky-700 shrink-0">
+<span class="material-symbols-outlined text-[24px]">mail</span>
+</div>
+<div>
+<div class="text-xs text-slate-500 uppercase font-bold">Email</div>
+<a class="text-sm sm:text-base text-slate-900 font-semibold hover:text-sky-600 transition-colors" href="mailto:divyaditya.jhala@example.com">
+                    divyaditya.jhala@example.com
+                  </a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-emerald-700 shrink-0">
+<span class="material-symbols-outlined text-[24px]">call</span>
+</div>
+<div>
+<div class="text-xs text-slate-500 uppercase font-bold">Phone</div>
+<div class="text-sm sm:text-base text-slate-900 font-semibold">
+                    Available upon request
+                  </div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-700 shrink-0">
+<span class="material-symbols-outlined text-[24px]">location_on</span>
+</div>
+<div>
+<div class="text-xs text-slate-500 uppercase font-bold">Location</div>
+<div class="text-sm sm:text-base text-slate-900 font-semibold">Indore / Jaipur, India</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-slate-100">
+<div class="text-xs text-slate-500 uppercase font-bold mb-3">Connect Directly</div>
+<div class="flex flex-wrap gap-2.5">
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold hover:text-sky-700 hover:bg-sky-50 transition-all border border-slate-200" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">hub</span>
+<span class="">LinkedIn Profile</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold hover:text-sky-700 hover:bg-sky-50 transition-all border border-slate-200" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+<span class="">GitHub Repos</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Right: Interactive Light Contact Form (7 cols) -->
+<div class="lg:col-span-7 rounded-2xl bg-white border border-slate-200 p-6 lg:p-8 shadow-sm">
+<form class="space-y-4" id="portfolioContactForm" onsubmit="handleFormSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-bold text-slate-700 uppercase" for="userName">Your Name</label>
+<input class="w-full px-3.5 py-2.5 rounded-lg bg-white border border-slate-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-sm transition-all" id="userName" placeholder="Alex Rivera" required="" type="text">
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-bold text-slate-700 uppercase" for="userEmail">Email Address</label>
+<input class="w-full px-3.5 py-2.5 rounded-lg bg-white border border-slate-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-sm transition-all" id="userEmail" placeholder="alex@venture.com" required="" type="email">
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-bold text-slate-700 uppercase" for="subject">Subject</label>
+<input class="w-full px-3.5 py-2.5 rounded-lg bg-white border border-slate-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-sm transition-all" id="subject" placeholder="AI Engineer Role / Technical Collaboration" required="" type="text">
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-bold text-slate-700 uppercase" for="message">Message</label>
+<textarea class="w-full px-3.5 py-2.5 rounded-lg bg-white border border-slate-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-sm transition-all" id="message" placeholder="Hi Divyaditya, let's discuss engineering opportunities at our company..." required="" rows="5"></textarea>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg text-sm font-semibold bg-sky-600 text-white shadow-md hover:bg-sky-700 hover:shadow-lg transition-all" id="submitBtn" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span class="">Send Message</span>
+</button>
+<div class="hidden p-3 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm font-medium text-center" id="formStatus">
+              Message dispatched! I will get back to you within 24 hours.
+            </div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Inline Micro-Interactions Script -->
+<script>
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      const status = document.getElementById('formStatus');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">progress_activity</span><span>Dispatching...</span>';
+      
+      setTimeout(() => {
+        btn.innerHTML = '<span class="material-symbols-outlined text-[20px]">check</span><span>Dispatched Successfully</span>';
+        btn.classList.add('bg-emerald-600', 'text-white');
+        btn.classList.remove('bg-sky-600', 'hover:bg-sky-700');
+        status.classList.remove('hidden');
+        document.getElementById('portfolioContactForm').reset();
+      }, 900);
+    }
+  </script>
+</div></main><footer class="w-full bg-slate-100 border-t border-slate-200 py-10 relative overflow-hidden"><div class="max-w-[1280px] mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex flex-col items-center md:items-start gap-1.5"><div class="flex items-center gap-2"><span class="text-base font-bold text-slate-900 tracking-tight">Divyaditya Singh Jhala</span><span class="text-xs px-2 py-0.5 rounded bg-sky-100 text-sky-800 font-semibold border border-sky-200">AI / ML</span></div><p class="text-xs text-slate-600">© 2025 Divyaditya Singh Jhala. All rights reserved.</p><p class="text-xs text-slate-500 flex items-center gap-1.5 mt-0.5"><span class="w-1.5 h-1.5 rounded-full bg-sky-600"></span>Built with modern AI stack</p></div><div class="flex items-center gap-3"><a aria-label="LinkedIn" class="w-9 h-9 rounded-lg bg-white flex items-center justify-center border border-slate-300 text-slate-700 hover:text-sky-600 hover:border-sky-400 hover:bg-sky-50 transition-all shadow-xs" href="https://linkedin.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">hub</span></a><a aria-label="GitHub" class="w-9 h-9 rounded-lg bg-white flex items-center justify-center border border-slate-300 text-slate-700 hover:text-sky-600 hover:border-sky-400 hover:bg-sky-50 transition-all shadow-xs" href="https://github.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">terminal</span></a><a aria-label="Email" class="w-9 h-9 rounded-lg bg-white flex items-center justify-center border border-slate-300 text-slate-700 hover:text-sky-600 hover:border-sky-400 hover:bg-sky-50 transition-all shadow-xs" href="mailto:divyaditya.jhala@example.com"><span class="material-symbols-outlined text-[20px]">mail</span></a></div></div></footer>
+
+</body></html>
